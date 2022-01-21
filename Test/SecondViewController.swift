@@ -13,4 +13,7 @@ class SecondViewController: UIViewController {
         super.viewDidLoad()
         
     }
+    @IBAction func buttonPressed() {
+        print(124)
+    }
 }
