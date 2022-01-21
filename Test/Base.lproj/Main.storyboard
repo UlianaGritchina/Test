@@ -71,6 +71,7 @@
                                 <buttonConfiguration key="configuration" style="filled" title="Button"/>
                                 <connections>
                                     <action selector="buttonPressed" destination="BYZ-38-t0r" eventType="touchUpInside" id="gVI-UU-hRP"/>
+                                    <action selector="buttonPressed" destination="FG3-w5-YHS" eventType="touchUpInside" id="mAp-V4-OQ2"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -84,6 +85,7 @@
                     <tabBarItem key="tabBarItem" title="Item" id="qJe-LR-h73"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="sWf-P5-kEJ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <exit id="FG3-w5-YHS" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
             <point key="canvasLocation" x="1048" y="854"/>
         </scene>
@@ -93,6 +95,7 @@
                 <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="ByF-ZJ-dQg" sceneMemberID="viewController">
                     <toolbarItems/>
                     <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="feh-Np-bp9">
+                        <rect key="frame" x="0.0" y="0.0" width="1000" height="1000"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     </tabBar>
